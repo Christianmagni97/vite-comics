@@ -5,63 +5,70 @@ export default{
             navHeaderLink:[
                 {
                     id: 1,
-                    title: "characters",
+                    title: "CHARACTERS",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 2,
-                    title: "comics",
+                    title: "COMICS",
                     url: "#",
                     active: true,
 
                 },
                 {
                     id: 3,
-                    title: "movies",
+                    title: "MOVIES",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 4,
-                    title: "movies",
+                    title: "TV",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 5,
-                    title: "movies",
+                    title: "GAMES",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 6,
-                    title: "movies",
+                    title: "COLLECTIBLES",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 7,
-                    title: "movies",
+                    title: "VIDEOS",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 8,
-                    title: "movies",
+                    title: "FANS",
                     url: "#",
                     active: false,
 
                 },
                 {
                     id: 9,
-                    title: "movies",
+                    title: "NEWS",
+                    url: "#",
+                    active: false,
+
+                },
+                {
+                    id: 10,
+                    title: "SHOP",
                     url: "#",
                     active: false,
 
@@ -100,11 +107,13 @@ export default{
 .header-logo-navbar{
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 ul{
     display: flex;
     justify-content: center;
     padding: 3rem;
+    margin-left: 300px;
 
 }
 li{
@@ -114,4 +123,5 @@ li{
         border-bottom: $color-second-main;
     }
 }
+
 </style>
