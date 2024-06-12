@@ -92,7 +92,6 @@ export default{
                     <li v-for="link in navHeaderLink" key="link.id" >
                         {{ link.title }}
                     </li>
-            
                 </ul>
             </nav>
         </section>
@@ -101,7 +100,7 @@ export default{
     </header>
   
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../assets/style/partials/variabls.scss' as *;
 @use '../assets/style/general.scss' as *;
 .header-logo-navbar{
@@ -123,5 +122,4 @@ li{
         border-bottom: $color-second-main;
     }
 }
-
 </style>

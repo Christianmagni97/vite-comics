@@ -32,7 +32,6 @@
   
 </template>
 <style lang="scss" scoped>
-
 .logo-image-main{
     width: 100%;
     display: flex;
@@ -58,6 +57,4 @@ p{
     background-color: #1c1c1c;
     padding: 4rem;
 }
-
-
 </style>
