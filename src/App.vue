@@ -10,6 +10,7 @@ export default {
     AppFooter,
   }
 }  
+
 </script>
 
 <template>
@@ -18,10 +19,6 @@ export default {
 
 <style lang="scss">
 
-@use '/style/partials/mixins.scss' as *;
-@use '/style/variabls/mixins.scss' as *;
-@use '/style/variabls/general.scss' as *;
-
-‹style>
-
 </style>
+
+
