@@ -25,11 +25,11 @@
         </section>
         <section class="follow">
             <p>FOLLOW US!</p>
-            <img src="../assets/img/footer-facebook.jpg" alt="">
-            <img src="../assets/img/footer-periscope.jpg" alt="">
-            <img src="../assets/img/footer-pinterest.jpg" alt="">
-            <img src="../assets/img/footer-twitter.jpg" alt="">
-            <img src="../assets/img/footer-youtube.jpg" alt="">
+            <img src="../assets/img/footer-facebook.png" alt="">
+            <img src="../assets/img/footer-periscope.png" alt="">
+            <img src="../assets/img/footer-pinterest.png" alt="">
+            <img src="../assets/img/footer-twitter.png" alt="">
+            <img src="../assets/img/footer-youtube.png" alt="">
         </section>
     </div>
 </template>
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    
+    color: white;
 }
 .footer-link{
     display: flex;
@@ -59,8 +59,9 @@
     align-items: center;
 }
 .follow img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
 .prime-part-footer{
     display: flex;
