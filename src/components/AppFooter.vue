@@ -3,19 +3,21 @@
 </script>
 <template>
     <div class="prime-part-footer">
-        <nav>
-            <div class="list-item-footer">
-                <ul>
-                <li>Il Pastificio</li>
-                <li><a href="#">IlPastificio</a></li>
-                <li><a href="#">IlPastificio</a></li>
-                <li><a href="#">IlPastificio</a></li>
-                <li><a href="#">IlPastificio</a></li>
-                <li><a href="#">IlPastificio</a></li>
+        <nav class="footer-link">
+            <ul>
+                <li>ciao</li>
+                <li>ciao</li>
+                <li>ciao</li>
             </ul>
-            </div>
         </nav>
-          
+        <nav class="footer-link">
+            <ul>
+                <li>salve</li>
+                <li>salve</li>
+                <li>salve</li>
+            </ul>
+        </nav>
+        <img src="../assets/img/dc-logo-bg.png" alt="" class="img-logo.footer">
     </div>
     <div class="finish-main">
         <section class="rett-sign">
@@ -41,6 +43,9 @@
     padding: 2rem;
     
 }
+.footer-link{
+    display: flex;
+}
 .rett-sign{
     text-align: center;
     width: 200px;
@@ -51,9 +56,17 @@
 }
 .follow{
     display: flex;
+    align-items: center;
 }
-
-
-
-
+.follow img{
+    width: 50px;
+    height: 50px;
+}
+.prime-part-footer{
+    display: flex;
+    background-image: url(../assets/img/footer-bg.jpg);
+    width: 100%;
+    height: 400px;
+   
+}
 </style>

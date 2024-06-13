@@ -106,7 +106,6 @@ export default{
 .header-logo-navbar{
     display: flex;
     justify-content: center;
-    padding: 1rem;
 }
 ul{
     display: flex;

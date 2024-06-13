@@ -7,45 +7,42 @@
             <p> ->content goes here <-- </p>
         </section>
         <section class="logo-image-main">
-            <div class="first-logo-image-main">
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <p>digital comics</p>
-            </div>
-            <div class="first-logo-image-main">
-                <img src="../assets/img/buy-comics-merchandise.png" alt="">
-                <p>digital comics</p>
-            </div>
-            <div class="first-logo-image-main">
-                <img src="../assets/img/buy-comics-shop-locator.png" alt="cioa">
-                <p>digital comics</p>
-            </div>
-            <div class="first-logo-image-main">
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="">
-                <p>digital comics</p>
-            </div>
-            <div class="first-logo-image-main">
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
-                <p>digital comics</p>
-            </div>
+            <section class="margin-main">
+                <div class="first-logo-image-main">
+                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                    <p>DIGITAL COMICS</p>
+                </div>
+                <div class="first-logo-image-main">
+                    <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                    <p>DC MERCHANDISE</p>
+                </div>
+                <div class="first-logo-image-main">
+                    <img src="../assets/img/buy-comics-shop-locator.png" alt="cioa">
+                    <p>SUBSCRIPTION</p>
+                </div>
+                <div class="first-logo-image-main">
+                    <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                    <p>COMIC SHOP LOCATOR</p>
+                </div>
+                <div class="first-logo-image-main">
+                    <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                    <p>DC POWER VISA</p>
+                </div>
+            </section>
         </section>
     </main>
   
 </template>
 <style lang="scss" scoped>
 .logo-image-main{
-    width: 100%;
-    display: flex;
-    padding: 5px;
-    justify-content: space-around;
+    padding: 3rem;
     background-color: #0282f9;
-    align-items: center;
 }
-img{
+.logo-image-main img{
     width: 50px;
 }
 .first-logo-image-main{
     display: flex;
-    padding: 2rem;
     align-items: center;
 }
 p{
@@ -55,6 +52,21 @@ p{
 }
 .first-part-main{
     background-color: #1c1c1c;
-    padding: 4rem;
+    padding: 3rem;
+}
+.first-part-main p{
+    font-size: 30px;
+    margin-left: 200px;
+}
+main p{
+    font-size: 12px;
+}
+.margin-main{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+    
+    align-items: center;
 }
 </style>
