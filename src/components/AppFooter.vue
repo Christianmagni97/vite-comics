@@ -17,7 +17,7 @@
                 <li>salve</li>
             </ul>
         </nav>
-        <img src="../assets/img/dc-logo-bg.png" alt="" class="img-logo.footer">
+        <img src="../assets/img/dc-logo-bg.png" alt="dc-logo" class="img-logo.footer">
     </div>
     <div class="finish-main">
         <section class="rett-sign">

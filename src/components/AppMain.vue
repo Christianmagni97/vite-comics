@@ -1,10 +1,22 @@
 <script>
+export default {
+    data() {
+        return{
+            
+        }
+    },
+    components: {
+        ListProduct
+    }
+}
+
 
 </script>
 <template>
     <main>
+
         <section class="first-part-main">
-            <p> ->content goes here <-- </p>
+            <ListProduct/>
         </section>
         <section class="logo-image-main">
             <section class="margin-main">
